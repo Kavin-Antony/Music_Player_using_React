@@ -13,7 +13,7 @@ A modern music player app built using React, designed to provide a smooth user e
 
 ## 📷Demo
 
-You can check out the live demo of the app here: [Demo Link](https://github.com/Kavin-Antony/Currency_Converter)
+You can check out the live demo of the app here: [Demo Link](https://kavin-antony.github.io/Music_Player_using_React/)
 
 ## 🚀Technologies Used
 
