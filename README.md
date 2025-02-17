@@ -2,7 +2,7 @@
 
 A modern music player app built using React, designed to provide a smooth user experience with an intuitive interface for playing and managing your favorite music.
 
-## 🔥Features
+## 🔥 Features
 
 - **User-friendly interface**: Clean, easy-to-navigate interface for effortless music control.
 - **Music Library**: Allows you to browse and play your music files.
@@ -11,11 +11,11 @@ A modern music player app built using React, designed to provide a smooth user e
 - **Category-based Music**: Browse music based on different categories like Genre, Artist, etc.
 - **Customizable Playlist**: Users can create and manage their own playlists.
 
-## 📷Demo
+## 📷 Demo
 
 You can check out the live demo of the app here: [Demo Link](https://kavin-antony.github.io/Music_Player_using_React/)
 
-## 🚀Technologies Used
+## 🚀 Technologies Used
 
 - **React**: JavaScript library for building user interfaces.
 - **HTML/CSS**: Markup and styling.
@@ -23,7 +23,7 @@ You can check out the live demo of the app here: [Demo Link](https://kavin-anton
 - **Node.js(version-18)**: Backend for serving the app (if applicable).
 - **GitHub Pages**: For hosting the app.
 
-## ⚙️Setup
+## ⚙️ Setup
 
 To run this project locally on your machine, follow these steps:
 
@@ -44,11 +44,11 @@ To run this project locally on your machine, follow these steps:
    npm run build
    ```
 
-## 📌Deployment
+## 📌 Deployment
 
 The app is deployed using GitHub Pages. Every push to the main branch triggers a GitHub Actions workflow that deploys the latest build to the gh-pages branch.
 
-## 📷Screenshots
+## 📷 Screenshots
 
 ![Sidebar Closed](https://raw.githubusercontent.com/kavin-antony/Music_Player_using_React/main/public/screenshot1.png)
 
