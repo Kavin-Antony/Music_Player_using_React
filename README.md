@@ -50,6 +50,6 @@ The app is deployed using GitHub Pages. Every push to the main branch triggers a
 
 ## 📷Screenshots
 
-![Sidebar Closed](./public/screenshot.png)
+![Sidebar Closed](https://raw.githubusercontent.com/kavin-antony/Music_Player_using_React/main/public/screenshot.png)
 
 ![Sidebar Opened](./public/screenshot.png)
