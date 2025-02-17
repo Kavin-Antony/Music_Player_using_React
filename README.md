@@ -50,6 +50,6 @@ The app is deployed using GitHub Pages. Every push to the main branch triggers a
 
 ## 📷Screenshots
 
-![Sidebar Closed](./assets/screenshot.png)
+![Sidebar Closed](./public/screenshot.png)
 
-![Sidebar Opened](./assets/screenshot.png)
+![Sidebar Opened](./public/screenshot.png)
