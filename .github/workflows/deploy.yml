@@ -1,0 +1,43 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Change this if you are using a different branch like 'master'
+  pull_request:
+    branches:
+      - main  # Optional: Trigger on pull request events
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Set up Node.js environment (if using Node.js build tool)
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # Specify the version of Node.js that matches your project
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          npm install  # Or `yarn install` if you're using Yarn
+
+      # Build the project to generate the dist folder
+      - name: Build project
+        run: |
+          npm run build  # Or the equivalent build command for your project
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages  # The branch to deploy to (it could be 'gh-pages' or any branch you choose)
+          folder: dist      # The folder to deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
