@@ -4,49 +4,61 @@ A modern music player app built using React, designed to provide a smooth user e
 
 ## 🔥 Features
 
-- **User-friendly interface**: Clean, easy-to-navigate interface for effortless music control.
-- **Music Library**: Allows you to browse and play your music files.
-- **Audio Controls**: Includes play, pause, skip, and volume control features.
-- **Responsive Design**: Optimized for both desktop and mobile use.
-- **Category-based Music**: Browse music based on different categories like Genre, Artist, etc.
-- **Customizable Playlist**: Users can create and manage their own playlists.
+- Play, pause, and control volume
+- Responsive UI with a dark theme
+- Progress tracking for audio playback
+- Styled using CSS and optimized for desktop
 
 ## 📷 Demo
 
 You can check out the live demo of the app here: [Demo Link](https://kavin-antony.github.io/Music_Player_using_React/)
 
-## 🚀 Technologies Used
+## 🛠️ Technologies Used
+- **React.js** (Frontend framework)
+- **Vite** (Build tool for fast development)
+- **CSS** (Custom styling for UI components)
 
-- **React**: JavaScript library for building user interfaces.
-- **HTML/CSS**: Markup and styling.
-- **JavaScript**: For adding dynamic behavior to the app.
-- **Node.js(version-18)**: Backend for serving the app (if applicable).
-- **GitHub Pages**: For hosting the app.
+## 📂 Project Structure
+```
+├── public/
+│   ├── assets/
+│   ├── vite.svg
+├── src/
+│   ├── components/
+│   │   ├── AudioPlayer.js
+│   ├── assets/
+│   ├── App.js
+│   ├── index.js
+│   ├── styles.css
+├── index.html
+├── package.json
+├── README.md
+```
 
-## ⚙️ Setup
+## 🏗️ Setup Instructions
 
-To run this project locally on your machine, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/Music_Player_using_React.git
-   cd Music_Player_using_React
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/your-username/react-audio-player.git
    ```
-
-2. Install dependencies:
-   ```bash
+2. Navigate to the project folder:
+   ```sh
+   cd react-audio-player
+   ```
+3. Install dependencies:
+   ```sh
    npm install
    ```
-
-3. Run the app:
-   ```bash
-   npm run build
+4. Start the development server:
+   ```sh
+   npm run dev
    ```
+5. Open your browser and visit `http://localhost:5173/`
 
-## 📌 Deployment
-
-The app is deployed using GitHub Pages. Every push to the main branch triggers a GitHub Actions workflow that deploys the latest build to the gh-pages branch.
+## 📌 Future Enhancements
+- Add playlist functionality
+- Implement drag-and-drop audio file support
+- Improve accessibility features
 
 ## 📷 Screenshots
 
