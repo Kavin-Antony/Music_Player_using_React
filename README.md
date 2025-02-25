@@ -39,11 +39,11 @@ You can check out the live demo of the app here: [Demo Link](https://kavin-anton
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/react-audio-player.git
+   git clone https://github.com/kavin-antony/Music_Player_using_React.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd react-audio-player
+   cd Music_Player_using_React
    ```
 3. Install dependencies:
    ```sh
