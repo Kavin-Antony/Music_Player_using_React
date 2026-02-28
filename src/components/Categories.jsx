@@ -1,36 +1,20 @@
+import { allCategories } from '../data/songsData';
 import '../styles/Categories.css';
 
-const categories = [
-  "Top Charts",
-  "New Releases",
-  "Trending",
-  "Playlists",
-  "Discover",
-  "Genres",
-  "Pop",
-  "Rock",
-  "Hip-Hop",
-  "Indie",
-  "Jazz",
-  "Classical",
-  "Electronic",
-  "R&B",
-  "Reggae",
-  "Dance",
-  "Chill",
-  "Acoustic",
-  "Podcasts",
-  "Workout"
-]
-
-const Categories = () => {
+const Categories = ({ activeCategory, setActiveCategory }) => {
   return (
-    <div className="categories">
-      {categories.map((category, index) => (
-        <button key={index} onClick={() => alert(`Clicked ${category}`)}>
-          {category}
-        </button>
-      ))}
+    <div className="categories-wrapper">
+      <div className="categories">
+        {allCategories.map((category, index) => (
+          <button
+            key={index}
+            className={`category-btn ${activeCategory === category ? 'active' : ''}`}
+            onClick={() => setActiveCategory(category)}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };
